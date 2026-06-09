@@ -27,7 +27,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/news/analyze",
+        "https://fake-news-backend-dolg.onrender.com/api/news/analyze",
         {
           headline,
           article,
