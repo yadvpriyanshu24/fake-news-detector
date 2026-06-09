@@ -47,3 +47,17 @@ npm run dev
 - AI/ML based fake news prediction
 - Real news API integration
 - Database support
+
+## How It Works
+
+The system checks:
+- Suspicious keywords
+- Clickbait headlines
+- Excessive punctuation
+- Trusted source patterns
+- Category matching
+
+## Based on these checks, it predicts
+- Likely Fake
+- Suspicious
+- Likely Genuine
